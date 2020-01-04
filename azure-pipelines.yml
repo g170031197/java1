@@ -1,0 +1,7 @@
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac AddTwoIntegers.java  
+      
+      java AddTwoIntegers
